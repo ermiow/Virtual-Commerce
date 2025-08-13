@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 public class CategoryController {
-
+    // direct injection
     @Autowired
     private CategoryService categoryService;
 
